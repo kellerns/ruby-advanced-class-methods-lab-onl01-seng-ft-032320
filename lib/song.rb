@@ -23,12 +23,16 @@ class Song
   def self.new_by_name(song_name)
     song = self.new
     song.name = song_name
+<<<<<<< HEAD
     song
+=======
+>>>>>>> 44d2771023887e6bc000b8e2fc3ddbe4b642fa42
   end
   
   def self.create_by_name(song_name)
     song = self.create
     song.name = song_name
+<<<<<<< HEAD
     song
   end
   
@@ -83,6 +87,8 @@ class Song
     
   def self.destroy_all
     @@all = []
+=======
+>>>>>>> 44d2771023887e6bc000b8e2fc3ddbe4b642fa42
   end
   
 end
